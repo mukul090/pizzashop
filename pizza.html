@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>pizza</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-----custom css file -------->
+
+    <link rel="stylesheet" type="text/css" href="pizza.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-----header section start-------------->
+
+
+
+    <section class="home">
+
+
+        <div class="header">
+
+            <div class="box1">
+                <div class="menu-name">
+                    <h1>menu</h1>
+                    <i id="back" class="fas fa-times"></i>
+                </div>
+                <li> <a href="pizza.html">home</a></li>
+                <li> <a href="#">pizza</a></li>
+
+                <li class="chinese"> <a href="#">chinese dishes</a>
+                    <i id="plus" class="fas fa-plus"></i>
+
+
+                    </i>
+                    <ul class="salad">
+                        <li><a href="#">salad</a></li>
+                        <li><a href="#">cheesecake</a></li>
+                        <li><a href="#">carrot cake</a></li>
+                        <li><a href="#">choclate cake</a></li>
+                        <li><a href="#">shacha noodles</a></li>
+                    </ul>
+                </li>
+
+                <li> <a href="#">burger</a></li>
+                <li> <a href="#">blog</a></li>
+
+            </div>
+            <div class="logo">
+                <img src="image/logo.jpg">
+            </div>
+
+            <div class="box2">
+                <i id="bar" class="fas fa-bars"></i>
+                <i id="search" class="fas fa-search"></i>
+                <i id="user" class="fas fa-user"></i>
+                <i id="cart" class="fas fa-shopping-cart"></i>
+
+            </div>
+        </div>
+
+        <div class="swiper home-slide">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background: url('image/banner-1.jpg') no-repeat">
+
+                    <div class="content">
+                        <span>new arrivals</span>
+                        <h1>healthy vegan salad of vegetables</h1>
+                        <p>enjoy some of the most exquisite and delicious dishes. with our unique recipes we guarantee a taste you won't forget!
+                        </p>
+                        <a href="" class="btn">shop now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url('image/banner-2.jpg') no-repeat">
+
+                    <div class="content">
+                        <span>new arrivals</span>
+                        <h1>italian spaghetti with tomato sauce</h1>
+                        <p>enjoy some of the most exquisite and delicious dishes. with our unique recipes we guarantee a taste you won't forget!
+                        </p>
+                        <a href="" class="btn">shop now</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="pagination">
+            <div class="button-prev">
+                <h1><i class="fas fa-angle-double-left"></i></h1>
+            </div>
+            <div class="button-next">
+                <h1><i class="fas fa-angle-double-right"></i></h1>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <div class="search-box">
+        <input type="text" placeholder="search...">
+        <i class="fas fa-search"></i>
+    </div>
+
+
+    <div class="account">
+
+        <div class="register">
+            <h1>account</h1>
+            <li><a href="login.html">sign in</a></li>
+            <li><a href="register.html">register</a></li>
+
+        </div>
+        <div class="currency">
+            <h1>currency</h1>
+            <li> <a href="#">EUR</a></li>
+            <li> <a href="#">USD</a></li>
+        </div>
+        <div class="language">
+            <h1>language EN</h1>
+            <li> <a href="#">english</a></li>
+            <li> <a href="#">italiano</a></li>
+            <li> <a href="#">nederlands</a></li>
+            <li> <a href="#">deutsch</a></li>
+            <li> <a href="#">polski</a></li>
+        </div>
+
+
+    </div>
+
+    <div class="item">
+        <h1>There are no items in your cart.</h1>
+
+    </div>
+
+
+    <!--------header section ends---------------->
+
+
+
+
+
+    <!----------menu section start----------->
+
+    <section class="menu">
+
+        <h1 class="heading">popular menu</h1>
+
+        <div class="product-btn">
+            <ul>
+                <li class="btn active" data-filter="special-products">special products</li>
+                <li class="btn " data-filter="bestseller-products">bestseller products</li>
+                <li class="btn " data-filter="latest-products">latest products</li>
+            </ul>
+        </div>
+
+        <div class="container">
+
+            <div class="box latest-products">
+                <div class="image">
+                    <img src="image/menu1.jpg">
+                    <div class="image-box">
+                        <img src="image/menu7.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box bestseller-products">
+                <div class="image">
+                    <img src="image/menu2.jpg">
+                    <div class="image-box">
+                        <img src="image/menu6.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box latest-products">
+                <div class="image">
+                    <img src="image/menu3.jpg">
+                    <div class="image-box">
+                        <img src="image/menu5.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box special-products">
+                <div class="image">
+                    <img src="image/menu4.jpg">
+                    <div class="image-box">
+                        <img src="image/menu3.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box bestseller-products">
+                <div class="image">
+                    <img src="image/menu5.jpg">
+                    <div class="image-box">
+                        <img src="image/menu4.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box latest-products">
+                <div class="image">
+                    <img src="image/menu6.jpg">
+                    <div class="image-box">
+                        <img src="image/menu2.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box special-products">
+                <div class="image">
+                    <img src="image/menu7.jpg">
+                    <div class="image-box">
+                        <img src="image/menu1.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+            <div class="box bestseller-products">
+                <div class="image">
+                    <img src="image/menu1.jpg">
+                    <div class="image-box">
+                        <img src="image/menu7.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-random"></i>
+                            <div class="cart-box">
+                                <a href="#" class="btn">add to cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h1>cargrilled burger</h1>
+                    <h2>$28.72 <span>$35.90</span></h2>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <!----------menu section ends------------->
+
+
+    <!-----------family-menu section start---------->
+
+    <section class="family-menu">
+
+        <div class="container">
+
+            <div class="box">
+                <h1>choose your menu</h1>
+                <p>welcome to our lovely family restaurant! have a nice stay, we hope you enjoy our menu.</p>
+
+                <div class="pagination">
+                    <div class="button-prev">
+                        <h1><i class="fas fa-angle-double-left"></i> prev</h1>
+                    </div>
+                    <div class="button-next">
+                        <h1>next <i class="fas fa-angle-double-right"></i></h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper family-slide">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <h1>mediterranean salad</h1>
+                        <div class="image">
+                            <img src="image/thumb-1.jpg" alt="">
+                        </div>
+                        <span>13 items</span>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <h1>penne pasta</h1>
+                        <div class="image">
+                            <img src="image/thumb-2.jpg" alt="">
+                        </div>
+                        <span>15 items</span>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <h1>beef burger</h1>
+                        <div class="image">
+                            <img src="image/thumb-3.jpg" alt="">
+                        </div>
+                        <span>2 items</span>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <h1>salad</h1>
+                        <div class="image">
+                            <img src="image/thumb-4.jpg" alt="">
+                        </div>
+                        <span>12 items</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+        <div class="paginations">
+            <div class="button-prev">
+                <h1><i class="fas fa-angle-double-left"></i> prev</h1>
+            </div>
+            <div class="button-next">
+                <h1>next <i class="fas fa-angle-double-right"></i></h1>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!----------family-menu section ends------------->
+
+
+    <!-----------limit section start--------->
+
+    <section class="limit">
+
+        <div class="container">
+
+            <div class="box">
+                <span>limited time only</span>
+                <h1>best collection 2022</h1>
+                <p>give your friends 12% off. when your friends buy from your invite link, you get 12% off!</p>
+                <a href="#" class="btn">shop now</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/banner-1 (1).jpg" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <!---------limit section ends----------->
+
+
+    <!-----footer section start----------->
+
+
+    <section class="footer">
+
+        <div class="container">
+
+            <div class="box">
+                <h1>contact info</h1>
+                <div class="contentt">
+                    <h2><span>address:</span> palwal, haryana, india, pin-121102</h2>
+                    <h2><span>phone:</span> 0123-456-7890</h2>
+                    <h2><span>e-mail:</span> demo@Rawalstore.com</h2>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <h1>information</h1>
+                <div class="link">
+                    <li><a href="#">delivery</a></li>
+                    <li><a href="#">legal notice</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">secure payment</a></li>
+                    <li><a href="#">contact us</a></li>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h1>extra</h1>
+                <div class="link">
+                    <li><a href="#">price drop</a></li>
+                    <li><a href="#">new products</a></li>
+                    <li><a href="#">best sales</a></li>
+                    <li><a href="#">sitemap</a></li>
+                    <li><a href="#">store</a></li>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <h1>my account</h1>
+                <div class="link">
+                    <li><a href="#">personal info</a></li>
+                    <li><a href="#">orders</a></li>
+                    <li><a href="#">credit slips</a></li>
+                    <li><a href="#">addresses</a></li>
+                    <li><a href="#">my wishlists</a></li>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="news">
+
+            <div class="container">
+
+                <h1><i class="fas fa-envelope"></i> subscribe newsletter</h1>
+                <div class="email-box">
+                    <input type="email" placeholder="enter your email">
+                    <button id="button">subscribe</button>
+                </div>
+                <div class="link">
+                    <a href="#" class="fab fa-facebook"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-google-plus"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-pinterest"></a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!------footer section ends--------------->
+
+
+    <!----credit section start---------->
+
+
+    <div class="credit">
+
+        <div class="box">
+            <li><a href="#">2022 - ecommerce software by mukul rawal</a></li>
+            <li>
+                <a href="#"><img src="image/payment.png"></a>
+            </li>
+        </div>
+
+
+    </div>
+
+
+
+    <!------credit section ends----------->
+
+    <!-----custom javascript file--------->
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="pizza.js"></script>
+</body>
+
+</html>
